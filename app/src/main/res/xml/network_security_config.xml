@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain>www.faraazin.ir</domain>
+        <domain>http://faraazin.ir</domain>
+        <domain>https://faraazin.ir</domain>
+        <domain>http://www.faraazin.ir</domain>
+        <domain>https://www.faraazin.ir</domain>
+    </domain-config>
+</network-security-config>

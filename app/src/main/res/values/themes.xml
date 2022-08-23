@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <attr name="toast_background" />
+    <attr name="header_color_text" />
+    <attr name="toast_text" />
+    <!-- Base application theme. -->
+    <style name="Theme.VoiceToMyLanguage" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="toast_background">@color/black</item>
+        <item name="header_color_text">@color/black</item>
+        <item name="toast_text">@color/white</item>
+
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="toast_style">
+
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/_10sdp</item>
+        <item name="android:textColor">?attr/toast_text</item>
+        <item name="android:background">?attr/toast_background</item>
+
+    </style>
+
+
+    <style name="header_text">
+        <item name="android:fontFamily">@font/vazir_bold</item>
+
+        <item name="android:textColor">?attr/header_color_text</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:padding">@dimen/_5sdp</item>
+
+    </style>
+
+    <style name="item_text">
+        <item name="android:fontFamily">@font/vazir_bold</item>
+        <item name="android:textColor">?attr/header_color_text</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:padding">@dimen/_5sdp</item>
+        <item name="android:layout_marginTop">@dimen/_8sdp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+</resources>
